@@ -1,0 +1,243 @@
+@font-face {
+    font-family: 'SatoshiBlack';
+    src: url(/Font/Satoshi-Variable.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'PoppinsMedium';
+    src: url(/Font/Poppins-Medium.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'PoppinsRegular';
+    src: url(/Font/Poppins-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Topline';
+    src: url(/Font/Topline-regular.ttf) format('truetype');
+}
+
+.navbar {
+    background-color: #0B132B !important;
+}
+.navbar .nav-link {
+    color: #C5C6C7 !important;
+}
+.dropdown-menu{
+    background-color: #0B132B !important;
+}
+.navbar-brand {
+    color: #5BC0BE !important;
+}
+.navbar-toggler {
+    background-color: #5BC0BE;
+}
+.nav-item {
+    font-family: 'SatoshiBlack';
+}
+.navbar-brand {
+    font-family: 'PoppinsRegular';
+}
+.navbar-brand .bi {
+    font-size: 25px;
+}
+#carouselExample {
+    height: 500px;
+    overflow: hidden;
+    width: 100%;
+}
+.carousel-item img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+body {
+    background-color: #e2e3e4;
+}
+.header1 {
+    margin-top: 70px;
+    margin-left: 50px;
+    font-family: 'PoppinsRegular';
+    color:#0B132B;
+}
+.p1 {
+    font-family: 'SatoshiBlack';
+    margin-top: 15px;
+    margin-left: 50px;
+    color:#0B132B;
+    font-size: 18px;
+}
+footer {
+    background-color: #0B132B !important;
+}
+footer span {
+    color: #C5C6C7;
+}
+.icon {
+    color: #C5C6C7;
+}
+.nav {
+    padding-right: 100px;
+    height: 40px;
+    margin: none;
+}
+.logo {
+    color: #5BC0BE;
+}
+.futir {
+    margin-left: 25px;
+}
+.guvenlik {
+    color: #5BC0BE;
+}
+.no-underline {
+    text-decoration: none;
+    position:relative;
+}
+.nav-link {
+    position:relative;
+}
+.nav-link::after {
+    opacity: 0;
+    transition: all 0.2s;
+    content: '';
+    height: 1px;
+    width: 100%;
+    background-color: #5BC0BE;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.nav-link:hover::after {
+    opacity: 1;
+}
+.no-underline::after {
+    opacity: 0;
+    transition: all 0.2s;
+    content: '';
+    height: 1px;
+    width: 100%;
+    background-color: #5BC0BE;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.no-underline:hover::after {
+    opacity: 1;
+}
+.cardflex {
+  display: flex;
+  justify-content: center; 
+  gap: 10px;
+}
+.card {
+    width: 450px;
+}
+.card-img-top {
+  width: 100%; /* Resimlerin card genişliğine eşit olmasını sağlar */
+  height: 200px; /* Resimlerin yüksekliğini belirleyin */
+  object-fit: cover; /* Resimlerin oranını koruyarak kaplamasını sağlar */
+}
+.card-text {
+    font-family: 'PoppinsRegular';
+    color: #0B132B;
+}
+.card-title {
+    font-family: 'SatoshiBlack';
+    font-weight: bold;
+    color: #0B132B;
+}
+.bi:hover {
+    color:#5BC0BE;
+}
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: #3A506B;
+    color:#ffffff; 
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 100px;
+    font-size: 20px; 
+}
+  
+#myBtn:hover {
+    background-color: #516f94; 
+}
+.articlee {
+    width: 100%;
+    height: 350px;
+    background-color: #5BC0BE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.articlee h1 {
+    font-family: 'Topline';
+    font-size: 100px;
+    color: #0B132B;
+    margin-top: 20px;
+}
+.security {
+    background-image: url(/IMG/blur.jpg);
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.securityyazi h2{
+    color: #ffffff;
+    padding: 10px;
+    padding-bottom: 0;
+}
+.securityyazi p{
+    margin-top: 10px;
+    color: #ffffff;
+    padding: 10px;
+}
+.securityways {
+    width: 100%;
+    height: 500px;
+    background-color:#ffffff;
+}
+.securityheader {
+    display: flex;
+    justify-content: center;
+    font-family: 'Topline';
+    padding-top: 50px;
+}
+.accordion-item {
+    background: rgb(241, 241, 241);
+}
+.accordion-button {
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.accordion {
+    padding-top: 25px;
+}
+.cizgi {
+    width: 100%;
+    height: 2px;
+    display: flex;
+    justify-content: center;
+}
+.cizgiici {
+    width: 80%;
+    height: 2px;
+    background-color: #0B132B;
+}
+.video {
+    padding:20px;
+    display: flex;
+    justify-content: center; 
+}
+.securitybtm {
+    height: 300px;
+    width: 100%;
+    background-color: #e8e8e8;
+}
+
